@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+  @apply w-full leading-snug placeholder-secondary text-gray-800 py-1 px-4 rounded border border-blue-200 bg-gray-300;
+}
+.form-control:hover {
+  @apply bg-white;
+}
+.form-control:focus {
+  @apply outline-none ring;
+}
+.label-control {
+  @apply block text-lg text-gray-700;
+}
+.btn-control {
+  @apply bg-primary md:px-20 px-4 py-1 text-lg m-auto block mt-3 shadow-xl text-gray-900 rounded font-medium;
+}
+.btn-control:hover {
+  @apply shadow-none text-white;
+}
+.h3-control {
+  @apply text-3xl text-center font-semibold text-gray-900 capitalize;
+}
+.form-container-control {
+  @apply p-8 md:px-32 lg:px-80 bg-white;
+}
+.image-banner {
+  @apply h-56 md:h-100 bg-no-repeat bg-cover bg-center;
+}
+.plaztifood-nav {
+  @apply h-14 px-5 bg-secondary text-white flex items-center justify-between;
+}
+.card-container {
+  @apply container mx-auto md:flex md:flex-wrap my-6;
+}
+.card {
+  @apply mx-2 md:mx-0 mt-4 md:w-1/2 md:flex md:bg-white rounded-lg;
+}
+.card-image {
+  @apply w-full md:w-48 md:h-full object-cover object-left rounded-lg md:rounded-r-none;
+}
+.card-title {
+  @apply text-2xl tracking-tight font-semibold uppercase text-gray-900 md:text-lg;
+}
+.card-description {
+  @apply text-gray-700 leading-snug;
+}
+.card-price {
+  @apply mt-2 text-sm font-semibold text-gray-700;
+}
+.card-stars-reviews {
+  @apply mt-2 text-yellow-700 text-xs;
+}
+.card-information-container {
+  @apply relative shadow-lg md:shadow-none bg-white rounded-lg -mt-2 mx-2 p-2 md:bg-transparent;
+}
+.networks-control {
+  @apply cursor-pointer transition ease-out duration-200;
+}
+.networks-control:hover {
+  @apply text-primary;
+}
+.networks-container {
+  @apply md:flex md:flex-row-reverse justify-around;
+}
